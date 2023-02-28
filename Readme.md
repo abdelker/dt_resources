@@ -39,3 +39,12 @@ roslaunch dt_resources ar_track_alvar_pepper.launch
 roslaunch dt_resources overworld_pepper.launch
 roslaunch dt_resources static_transform_pepper.launch
 ```
+
+Tiago
+
+```
+roslaunch dt_resources ontologenius_mementar_multi.launch
+roslaunch dt_resources ar_track_alvar_tiago.launch
+roslaunch dt_resources overworld_tiago.launch
+roslaunch dt_resources static_transform_tiago.launch
+```
