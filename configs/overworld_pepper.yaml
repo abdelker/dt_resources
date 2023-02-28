@@ -1,0 +1,20 @@
+modules:
+  robot:
+    JointStatePerceptionModule: pepper_joints
+  humans:
+    StampedPosePerceptionModule: human
+  objects:
+    ArTrackPerceptionModule: ar_track
+    StaticObjectsPerceptionModule: static
+
+pepper_joints:
+  robot_name : pepper
+
+human:
+  name: human_0
+
+ar_track:
+  min_track_err: 0.05
+
+static:
+  file: package://overworld/config/adream.yaml
