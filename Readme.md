@@ -27,7 +27,7 @@ Pr2
 ```
 roslaunch dt_resources ontologenius_mementar_multi.launch
 roslaunch dt_resources ar_track_alvar_robot.launch
-roslaunch dt_resources overworld.launch
+roslaunch dt_resources overworld_pr2.launch
 roslaunch dt_resources static_transform_pr2.launch
 ```
 
