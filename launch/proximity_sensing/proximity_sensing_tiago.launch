@@ -1,0 +1,6 @@
+<launch>
+  <arg name="lidar_topic" default="/scan_raw"/>
+  <arg name="manager_topic" default="/tiago_head_manager/proximity/tiago_head_manager_msgs_Point"/>
+
+  <node name="proximity_sensing" pkg="proximity_sensing" type="proximity_sensing_node" output="screen" args="$(arg lidar_topic) $(arg manager_topic)"/>
+</launch>
