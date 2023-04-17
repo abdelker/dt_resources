@@ -60,8 +60,23 @@
     <owl:NamedIndividual rdf:about="dt_humans#herakles">
         <rdf:type rdf:resource="cg_agents#Head"/>
     </owl:NamedIndividual>
-    
 
+
+    
+    <!-- dt_humans#Director -->
+
+    <owl:NamedIndividual rdf:about="dt_humans#Director">
+        <rdf:type rdf:resource="cg_agents#Role"/>
+    </owl:NamedIndividual>
+
+
+    <!-- dt_humans#Receiver -->
+
+    <owl:NamedIndividual rdf:about="dt_humans#Reciver">
+        <rdf:type rdf:resource="cg_agents#Role"/>
+    </owl:NamedIndividual>
+
+    
 
     <!-- dt_humans#mocap_fov -->
 
@@ -83,6 +98,7 @@
         <cg_agents:hasHead rdf:resource="dt_humans#Helmet_2"/>
         <cg_agents:hasLeftHand rdf:resource="dt_humans#Glove_1"/>
         <cg_agents:hasRightHand rdf:resource="dt_humans#Glove_2"/>
+        <cg_agents:hasRole rdf:resource="dt_humans#Director"/>
     </owl:NamedIndividual>
     
 
